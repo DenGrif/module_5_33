@@ -67,7 +67,7 @@ class House:
     def __radd__(self, value):
         return self.__add__(value)
 
-# Создание объектов класса House
+# Создание объектов
 h1 = House('ЖК Эльбрус', 10)
 print(House.houses_history)
 h2 = House('ЖК Акация', 20)
